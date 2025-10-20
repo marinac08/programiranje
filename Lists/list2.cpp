@@ -3,7 +3,7 @@
 #include <algorithm>
 
 std::vector<int> mergeAndSort(const std::vector<int>& a, const std::vector<int>& b) {
-    std::vector<int> merged = a; // start with first list
+    std::vector<int> merged = a;
     merged.insert(merged.end(), b.begin(), b.end());
     std::sort(merged.begin(), merged.end());
     return merged;

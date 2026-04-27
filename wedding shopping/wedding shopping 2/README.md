@@ -1,1 +1,1 @@
-Bottom-up solution to the wedding shopping problem.
+Bottom-up (tabulation) solution to the wedding shopping problem.
